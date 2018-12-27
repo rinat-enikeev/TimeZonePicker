@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source_files          = 'Classes', 'Classes/*.{swift}'
   s.resources             = 'Resources/*.{json,storyboard}'
-  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '4' }
+  s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '4.2' }
 
   s.frameworks            = 'UIKit'
   s.requires_arc          = true
